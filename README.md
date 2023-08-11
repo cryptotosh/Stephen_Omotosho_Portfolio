@@ -6,4 +6,4 @@
 
 
 
-# All credits to [Maclinz] (https://github.com/Maclinz/) for this great design
+# All credits to [Maclinz](https://github.com/Maclinz/) for this great design
