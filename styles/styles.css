@@ -355,6 +355,9 @@ section {
   /* padding: 0em; */
   color: var(--color-grey-1);
 }
+.pitch a {
+  pointer-events: none !important;
+}
 
 /*Timeline*/
 .timeline {
