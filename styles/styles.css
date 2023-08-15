@@ -356,7 +356,7 @@ section {
   color: var(--color-grey-1);
 }
 .pitch a {
-  pointer-events: none !important;
+  /* pointer-events: none !important; */
 }
 
 /*Timeline*/
