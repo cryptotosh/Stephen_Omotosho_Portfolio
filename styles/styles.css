@@ -346,6 +346,9 @@ section {
 }
 
 /* Pitch */
+.pitch {
+  /* margin: 0; */
+}
 .pitch h4 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -355,8 +358,8 @@ section {
   /* padding: 0em; */
   color: var(--color-grey-1);
 }
-.pitch a {
-  /* pointer-events: none !important; */
+.pitch .btn-con {
+  margin-bottom: 4rem;
 }
 
 /*Timeline*/
