@@ -585,7 +585,7 @@
                     <i class="fab fa-whatsapp"></i>
                   </a>
                   <a href="https://twitter.com/UrFave_VA" target="_blank">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="https://github.com/cryptotosh" target="_blank">
                     <i class="fab fa-github"></i>
@@ -600,17 +600,32 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="" class="contact-form">
+              <form action="/contact" method="POST" class="contact-form">
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="YOUR NAME"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="YOUR EMAIL"
+                  />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input
+                    type="text"
+                    name="subject"
+                    required
+                    placeholder="ENTER SUBJECT"
+                  />
                 </div>
                 <div class="input-control">
                   <textarea
-                    name=""
+                    name="message"
                     id=""
                     cols="15"
                     rows="8"
