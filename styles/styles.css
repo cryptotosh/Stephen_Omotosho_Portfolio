@@ -983,3 +983,15 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+@media (min-width: 768px) {
+  iframe {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  iframe {
+    width: 100%;
+  }
+}
