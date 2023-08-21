@@ -346,12 +346,15 @@ section {
 }
 
 /* Pitch */
-.pitch {
-  /* margin: 0; */
+.pitches {
+  /* padding: 2rem 2.5rem !important; */
+  /* margin-top: 2rem; */
 }
-.pitch h4 {
-  font-size: 2rem;
-  text-transform: uppercase;
+#pitches p {
+  text-align: justify;
+}
+.pitch {
+  margin-top: 1.5rem;
 }
 .pitch p {
   line-height: 2rem;
@@ -360,6 +363,7 @@ section {
 }
 .pitch .btn-con {
   margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 
 /*Timeline*/
